@@ -5,7 +5,7 @@ let language = 'italian'
 // create three variables and assign them values of different data types (=)
 let age = 40
 const whatif = true
-const fancyPants = 'cat pajamas'
+const fancyPants = 'cats pajamas'
 // print the types of two variables that reference two different data types (typeof)
 // TIP: console.log() prints a value in the console/terminal
 console.log(typeof age)
