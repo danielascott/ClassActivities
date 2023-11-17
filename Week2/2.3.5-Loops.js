@@ -8,13 +8,17 @@ let total = 0;
 while (x <= 100) {
     total = total + x;
     console.log(x);
+    
     x++;
 }
+console.log(total);
 
 // Now using the same variables you created in steps 1 and 2, create a **for** loops that TOTALS the numbers from 1 to 100
 
 // 1) write a for loop that sums the numbers from 1 to 100
-
-for (let i = 1; i <= 100; i++) {
-    console.log(i);
+total = 0
+for (let y = 1; y <= 100; y++) {
+    total = total + y
+    console.log(y);
   }
+console.log(total);

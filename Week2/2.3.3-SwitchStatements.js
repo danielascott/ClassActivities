@@ -46,6 +46,7 @@ switch (day) {
     break;
   // write a case here for the weekend (how many days in the weekend?)
   case 6:
+  case 0:
     alert(`It's the Weekend !!`);
 
 }

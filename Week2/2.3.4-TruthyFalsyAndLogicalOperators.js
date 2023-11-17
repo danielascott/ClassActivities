@@ -33,6 +33,10 @@ if (age > 10) { // "full menu" if the age is over 10,
 
 let num = 0;
 
-if (num || !num) { // Write your if statement here *
+if (!num) { 
+    console.log("The nubmer is zero")
+}
+
+if (num || !num) { 
     console.log("The nubmer is zero")
 }

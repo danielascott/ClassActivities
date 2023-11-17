@@ -18,6 +18,7 @@ newVar = null;
 console.log(newVar);
 // Try to print a variable that does not exist
 // What should we expect to print in the CLI? This is what was given back.
+
 // ReferenceError: noexist is not defined
 // at Object.<anonymous> (/home/danielascott/Documents/Savvy Coders/ClassActivities/Week2/2.2.3-JSMorePrimitives.js:21:13)
 // at Module._compile (node:internal/modules/cjs/loader:1256:14)
@@ -26,6 +27,7 @@ console.log(newVar);
 // at Module._load (node:internal/modules/cjs/loader:960:12)
 // at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)
 // at node:internal/main/run_main_module:23:47
+
 console.log(noexist)
 // Print "greeting" again
 // Will this line run?
