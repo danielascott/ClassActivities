@@ -44,4 +44,4 @@ function myFunctionrestoper(param1, ...param2){
 
 // again, invoke the function and pass in more than two numbers
 
-myFunctionrestoper(3, 7, 9)
+myFunctionrestoper(3, 7, 9, 20, 45)
