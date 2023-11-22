@@ -39,7 +39,7 @@ myFunctiondefaultpara(6)
 // add a line to the function's body to print the value of the rest operator
 
 function myFunctionrestoper(param1, ...param2){
-    console.log(param1, myRestParam);
+    console.log(param1, param2);
 }
 
 // again, invoke the function and pass in more than two numbers
