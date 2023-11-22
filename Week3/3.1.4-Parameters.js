@@ -38,7 +38,7 @@ myFunctiondefaultpara(6)
 // add a rest operator to the function's parameters
 // add a line to the function's body to print the value of the rest operator
 
-function myFunctionrestoper(param1, ...myRestParam){
+function myFunctionrestoper(param1, ...param2){
     console.log(param1, myRestParam);
 }
 
