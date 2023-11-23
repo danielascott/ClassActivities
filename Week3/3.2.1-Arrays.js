@@ -24,6 +24,7 @@ const cars = [];
 
 for (let vehicle of trucks) {
     let output = "ford ${vehicle}"; // this will put ford infront of the arrays .. f450, f250, etc. 
+    let output = vehicle.toLowerCase(); // this will make all the arrays lower case ..
     cars.push(output);
 }
 
