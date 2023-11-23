@@ -16,6 +16,6 @@ trucks.length;
 
 // use the length property to access the last item in the Array
 
-console.log(trucks[trucks.length - 1]);
+console.log(trucks[trucks.length - 1]);  // essentially 3 - 1 , which shows the dodge because dodge is technically 2
 
 // with for...of, loop over the Array, modify the value and add to a different Array
