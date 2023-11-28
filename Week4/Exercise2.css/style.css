@@ -1,0 +1,60 @@
+body {
+    background-color: #4a5b5c;
+    margin: auto;
+}
+
+.bio {
+    color: green;
+}
+
+#banana {
+    font-size: 30px;
+}
+
+/* chain a class selector onto a element selector  */
+
+p.highlight{
+    color: violet;
+}
+
+h1.highlight{
+    color: skyblue
+}
+
+/* select all the child list items from one of your lists */
+
+ul li {
+    color: navajowhite
+}
+
+/* select an element that is a sibling of another element */
+
+p5 + p{
+    color: red;
+}
+
+/* use the universal selector to give all elements a border */
+* {
+    border: 3px solid purple;
+}
+
+/* add padding and margin on some elements */
+
+h2 {
+    padding: 5px 10px;
+    margin: 50px;
+}
+
+/* add padding and margin only on certain sides of some elements */
+
+h3 {
+    padding-left: 80px;
+    margin-bottom: 100px;
+}
+
+/* Using pseudo-classes,
+have at least one element change color when someone hovers over it */
+
+li:hover {
+    color: yellow;
+}
