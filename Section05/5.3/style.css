@@ -2,6 +2,31 @@
 	Several CSS sections will be added from activity 5
 */
 
+header {
+    background-image: url(https://source.unsplash.com/random/800x600);
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/* this is for the button that isn't a link */
+header>button {
+    text-decoration: none;
+    background-color: white;
+    font-size: 1.5em;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+/* this is for the link button
+header>a {
+    text-decoration: none;
+    background-color: white;
+    font-size: 1.5em;
+    padding: 1.5rem;
+    border-radius: 10px;
+} */
+
 header>h1 {
     color: darkblue;
 }
@@ -21,6 +46,18 @@ body>form {
     border: 1px solid;
 }
 
+@media (min-width: 550px) {
+    nav>.fa-bars {
+        display: none;
+    }
+}
+
+/* in HTML: <ul class="hidden--mobile"> */
+@media (max-width: 549px) {
+    .hidden--mobile {
+        display: none;
+    }
+}
 
 /* Activity 5.1: Media queries
   -Add CSS that removes the border around the flex items */
@@ -46,8 +83,8 @@ body>form {
     }
 } */ */
 
-@media (min-width: 2000px) {
+/* @media (min-width: 2000px) {
     * {
         color: orange;
     }
-}
+} */
