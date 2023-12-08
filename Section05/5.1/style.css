@@ -12,8 +12,11 @@ body>form {
 
 /*  This styling sets up the flex container */
 .flex {
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
+    flex-direction: column;
+    gap: 1em;
+    flex-wrap: wrap;
 }
 
 /* this adds a border around the flex items */
@@ -45,6 +48,7 @@ body>form {
         color: red;
     }
 } */ */
+
 
 @media (min-width: 2000px) {
     * {
