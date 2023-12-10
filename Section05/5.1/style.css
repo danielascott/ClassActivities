@@ -51,7 +51,4 @@ body>form {
 
 
 @media (min-width: 2000px) {
-    * {
-        color: orange;
-    }
 }
